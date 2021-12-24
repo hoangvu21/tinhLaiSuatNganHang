@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính lãi suất ngân hàng</title>
+</head>
+<body>
+    <script>
+        var tienGui= parseInt(prompt("Số tiền vay:"));
+        var laiSuat= parseFloat(prompt("Lãi suất:"));
+        var soNam= parseInt(prompt("Số năm:"));
+        var tienLai= tienGui*laiSuat*soNam;
+        var gocVaLai= tienGui + tienLai
+        document.write("Số tiền vay:" + tienGui + "<br>");
+        document.write("Lãi suất:" + laiSuat + "<br>");
+        document.write("Số năm:" +soNam + "<br>");
+        document.write("Số tiền phải trả:" +gocVaLai + "<br>");
+    </script>
+</body>
+</html>
